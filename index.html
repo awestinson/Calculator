@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="updateInterval()">
+    <h1>CALCULATOR</h1>
+    <div class="time">
+        <p>Date/Time: <span id="datetime"></span></p>
+    </div>
+    <div class="container">
+        <input type="text" placeholder="0">
+        <div class="operators">
+            <button>+</button>
+            <button>-</button>
+            <button>x</button>
+            <button>/</button>
+        </div>
+        <div>
+            <span class="numbers-1">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+            </span>
+            <button class="mod">%</button>
+        </div>
+        <div>
+            <span class="numbers-2">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </span>
+            <button class="Del">Del</button>
+        </div>
+        <div>
+            <span class="numbers-3">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </span>
+            <button class="AC">AC</button>
+        </div>
+        <div>
+            <button class="numbers-4">0</button>
+            <button class="point">.</button>
+            <button class="equals">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
